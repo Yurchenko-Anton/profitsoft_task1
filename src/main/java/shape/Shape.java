@@ -10,7 +10,7 @@ public abstract class Shape {
     public Shape(int s, int h, double coef) {
         S = s;
         this.h = h;
-        this.V = coef*s*h;  // coef = coefficient. The area of a cone is 1/3*S*h
+        this.V = coef * s * h;  // coef = coefficient. The area of a cone is 1/3*S*h
     }
 
     public int getS() {
